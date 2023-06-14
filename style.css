@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-block{
+           
+    /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    /* background-color: #0093E9; */
+background-image: linear-gradient(160deg, #0094e98c 0%, #80d0c75a 100%);
+
+    background-attachment: fixed;
+    
+}
+article{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 8; */
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.card{
+    /* border: 2px solid green; */
+    text-align: center;
+    margin: 2rem 1rem;
+    /* padding: 2rem ; */
+    
+    /* background-image: linear-gradient(160deg, #0094e98d 0%, #80d0c778 100%); */
+    background-color: #08601a2c;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 12px;
+    position: relative;
+    transition: all;
+    transition-duration: 0.3s;
+    text-transform: capitalize;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    border-radius: 8px;
+    margin-top: 2rem;
+    height: 40vh;
+    /* width: 15vw; */
+    
+}
+.card a{
+    color: #4158D0;
+    /* background-color: #FFCC70; */
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    /* color: aliceblue; */
+    width: 22vw;
+    padding: 0.6rem;
+    margin: 0.3rem;
+    border-radius: 6px;
+}
+.card a:hover{
+
+    color: #2B86C5;
+    /* background-color: #fff; */
+    /* background-color: #2bc566; */
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+
+}
+.card h3{
+    position: absolute;
+    top:0rem;
+    left: 0rem;
+    /* background-color: rgba(235, 103, 9, 0.852); */
+    background-color: #fad9616f;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+    padding: 1.5rem;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 50px;
+    
+}
+.org{
+
+    box-shadow: 0px 0px 100px 1px rgba(255, 255, 255, 0.7);
+    border: 5px solid rgba(172, 255, 47, 0.428);
+}
+
+/* 
+
+@media screen and (min-width: 0px) {
+    article {
+      padding: 10vw;
+      gap: 9vw;
+    }
+    .card {
+      width: 90vw;
+      padding: 3.7vw;
+    }
+  
+   
+    .card h2 {
+      margin: 2vw 0px;
+    }
+  
+    .card a {
+      font-size: 6vw;
+      padding: 2vw;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    article {
+      padding: 5vw 1.5vw;
+      gap: 3vw;
+    }
+    .card {
+      width: 25vw;
+      padding: 1.4vw;
+    }
+    .card h2 {
+      margin: 0vw 0px;
+    }
+    .card a {
+      font-size: 1.6vw;
+      padding: 1vw;
+    }
+  }
+   */
